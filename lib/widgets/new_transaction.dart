@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:like_button/like_button.dart';
 import '../widgets/adaptive_flat_button.dart';
 
 class NewTransaction extends StatefulWidget {
@@ -122,6 +123,7 @@ class _NewTransactionState extends State<NewTransaction> {
                     ],
                   ),
                 ),
+                LikeButton(),
                 RaisedButton(
                   child: Text('Add Transaction'),
                   color: Theme.of(context).primaryColor,
